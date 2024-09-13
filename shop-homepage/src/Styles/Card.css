@@ -1,0 +1,39 @@
+.card 
+{
+   
+    height:450px;
+    margin:1rem;
+    padding:0.5rem;
+    position:relative;
+}
+.card img 
+{
+    height:250px;
+    width:100%;
+}
+.card:hover 
+{
+    box-shadow: 0 4px 4px 4px rgba(0,0,0,0.5);
+    cursor:pointer;
+}
+.card button 
+{
+    background-color: orange;
+    color:white;
+    padding:0.5rem;
+    border:none;
+    position:absolute;
+    bottom:0;
+    margin-bottom:1rem;
+    border-radius: 10px;
+}
+.card .buy-btn
+{
+    position: absolute;
+    left:70%;
+    bottom:0;
+}
+.card button:hover 
+{
+    cursor: pointer;
+}

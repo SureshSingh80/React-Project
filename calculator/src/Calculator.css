@@ -1,0 +1,53 @@
+body
+{
+    background-color: black;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.calc
+{
+    width:265px;
+    height:380px;
+    border:none;
+    border-radius:20px;
+    background-color: transparent;
+    box-shadow: -1px -1px 10px 10px rgba(207, 79, 24, 0.5);
+}
+.calc .display
+{
+    width:100%;
+    height:7vh;
+    background-color: transparent;
+    border-radius:20px;
+    color:white;
+    font-size:2rem;
+    padding:5px;
+    box-sizing:border-box;
+    position:relative;
+    overflow:hidden;
+}
+.calc .display span
+{
+    position:relative;
+    float:right;
+}
+.calc .buttons
+{
+    margin:0.4rem;
+}
+.calc .buttons button
+{
+    width:50px;
+    height:50px;
+    margin:0.4rem;
+    border-radius:50%;
+    border:none;
+    box-shadow: -1px -1px 4px 5px rgba(207, 79, 24, 0.5);
+    background-color: transparent;
+    color:white;
+}

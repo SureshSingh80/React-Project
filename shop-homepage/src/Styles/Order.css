@@ -1,0 +1,34 @@
+.order-items
+{
+    display: flex;  
+    width:100%;
+    margin-bottom:2rem;
+    padding:0.5rem;
+    position:relative;
+    top:4rem;
+}
+.order-items img 
+{
+    width:200px;
+    height:300px;
+}
+.order-items:hover 
+{
+    box-shadow: 0 4px 4px 4px rgba(0,0,0,0.5);
+}
+.order-items .item-details
+{
+    margin:5rem;
+}
+.order-items .item-details button 
+{
+  background-color: brown;
+  color:white;
+  padding:0.5rem 1rem;
+  border:none;
+  border-radius:10px;
+}
+.order-items .item-details button:hover 
+{
+    cursor: pointer;
+}

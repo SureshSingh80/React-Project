@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section 
+{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:2rem;
+    
+}
+.card
+{
+    margin-top:2rem;
+}
