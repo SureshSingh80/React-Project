@@ -54,3 +54,39 @@ body{
     color:white;
 
 }
+
+/* responsiveness */
+@media (max-width:600px){
+    .container{
+        width:80%;
+        margin-left:2rem;
+    }
+}
+@media (max-width:500px){
+    .container{
+        margin-left:4rem;
+    }
+}
+@media (max-width:450px){
+    .container{
+        margin-left: 5rem;
+    }
+}
+@media (max-width:400px){
+    .container{
+        margin-left:6rem;
+    }
+}
+@media (max-width:350px){
+    .container{
+        margin-left:7rem;
+    }
+}
+@media (max-width:300px){
+    .container{
+        margin-left: 8rem;
+    }
+}
+
+
+
